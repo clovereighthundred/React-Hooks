@@ -7,7 +7,7 @@ type StateType = {
     text: string
 }
 
-const initState: StateType = { count: 0, text: ' ' }
+export const initState: StateType = { count: 0, text: ' ' }
 
 const REDUCER_ACTION_TYPE = {   // used this way to avoid issues with const enums and transpilation
     INCREMENT: 'INCREMENT',

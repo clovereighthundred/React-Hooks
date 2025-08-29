@@ -1,5 +1,5 @@
 import {type ReactNode } from 'react'
-import { useCounter, useCounterText } from './context/CounterContext'
+import { useCounter, UseCounterText } from './context/CounterContext'
 
 
 
@@ -10,7 +10,7 @@ type ChildrenType = {
 const Counter = ({children}: ChildrenType) => {
     // const [count, setCount] = useState<number>(1)
     const { count, increment, decrement } = useCounter()
-    const {text, handleTextInput } = useCounterText()
+    const {text, handleTextInput } = UseCounterText()
     
 
     return (
